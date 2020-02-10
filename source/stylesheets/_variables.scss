@@ -24,7 +24,7 @@ under the License.
 // BACKGROUND COLORS
 ////////////////////
 $nav-bg: #fff !default;
-$examples-bg: #F3F7F9 !default;
+$examples-bg: #fff !default;
 $code-bg: #4e566a !default;
 $code-annotation-bg: #3c4157 !default;
 $nav-subitem-bg: #fff !default;
@@ -33,7 +33,7 @@ $nav-active-parent-bg: #fff !default; // parent links of the current section
 $lang-select-border: #e3e8ee !default;
 $lang-select-bg: #fff !default;
 $lang-select-active-bg: $examples-bg !default; // feel free to change this to blue or something
-$lang-select-pressed-bg: #556cd6 !default; // color of language tab bg when mouse is pressed
+$lang-select-pressed-bg: #fff !default; // color of language tab bg when mouse is pressed
 $main-bg: #fff !default;
 $aside-notice-bg: #f5fbff !default;
 $aside-warning-bg: #f5fbff !default;
