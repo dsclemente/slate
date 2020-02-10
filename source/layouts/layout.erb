@@ -30,6 +30,7 @@ under the License.
     <meta content="IE=edge,chrome=1" http-equiv="X-UA-Compatible">
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
     <title><%= current_page.data.title || "API Documentation" %></title>
+    <link href="themes/prism.css" rel="stylesheet" />
 
     <style>
       <%= Rouge::Themes::MonokaiSublime.render(:scope => '.highlight') %>
@@ -44,6 +45,7 @@ under the License.
   </head>
 
   <body class="<%= page_classes %>" data-languages="<%=h language_tabs.map{ |lang| lang.is_a?(Hash) ? lang.keys.first : lang }.to_json %>">
+  <script src="prism.js"></script>
     <a href="#" id="nav-button">
       <span>
         NAV
@@ -112,5 +114,5 @@ under the License.
         <% end %>
       </div>
     </div>
+    </html>
   </body>
-</html>
